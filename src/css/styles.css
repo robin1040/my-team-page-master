@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-tex{
+    margin-left: 12px;
+    margin-top: 71px;
+    color: #000000;
+}
+
+h1{
+    
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 47.7px;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.12rem;
+    line-height: 21px;
+    margin-top: 38px;
+}
+
+.text p{
+    width: 333px;
+    height: 78px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 21px;
+}
+
+.container-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 19px;
+    margin-top: 50px;
+    color: #000000;
+}
+
+
+.item{
+    width: 156px;
+    height: 237px;
+
+}
+
+.item:hover{
+    width: 180px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.img-box{
+    display: flex;
+}
+
+.img-box img{
+    width: 100%;
+}
+
+.img-box p{
+    margin-left: 3px;
+    font-family: 'PT Serif', serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.25px;
+    writing-mode: vertical-lr;
+    
+}
+
+.name{
+    margin-top: 21px;
+    color: #000000;
+}
+
+.name h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.item-2{
+    margin-top: 52px;
+}
+
+footer{
+    margin-top: 175px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    color: #A9A9A9;
+}
+
+footer p a{
+    font-weight: 700;
+    color: #A9A9A9;
+}
